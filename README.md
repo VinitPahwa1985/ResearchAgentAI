@@ -117,8 +117,8 @@ This Streamlit app uses the `phi` library to create an agent that acts as a seni
 
 - **Streamlit App Layout**:
   ```python
-  st.title("NYT Researcher Agent")
-  topic = st.text_input("Enter a topic to research:", "Alshaya Group")
+  st.title("The Wall Street Journal Researcher Agent")
+  topic = st.text_input("Enter a topic to research:", "Google")
 
   if st.button("Run Agent"):
       run_agent(topic)
